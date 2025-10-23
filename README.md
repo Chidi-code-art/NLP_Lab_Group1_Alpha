@@ -1,7 +1,10 @@
 ## Football Player Pass Completion Prediction Using Decision Trees
 A.	Group Name: Group 1
+
 B.	Names and Matriculation Numbers of Group Members:
+
 S/N	NAME	MATRICULATION NUMBER
+
 1.		Umeh Jason Chimdiadi	VUG/CSC/23/8824
 2.		Omolaiye Joshua Obin 	VUG/CSC/23/10065
 3.		Emmanuel Godwin David	VUG/CSC/23/10618
@@ -31,11 +34,13 @@ C.	Project Objectives:
  	To train another model and identify the best-performing model through comparison and optimization.
  	To understand why the best model makes certain predictions.
  	To communicate your model’s performance and findings effectively using data visualizations.
+  
 📊 Dataset
 •	Source: FIFA 15 player data
 •	Original File: raw_data.csv (15,465 players, 104 features)
 •	Processed File: processed_data.csv (with engineered features)
 •	Key Features: Player attributes, physical characteristics, and skill ratings
+
 🔧 Methodology
 Data Preprocessing
 1.	Target Variable Creation: Engineered pass_completed binary label based on passing score threshold (70)
@@ -48,6 +53,7 @@ Model Selection
 •	Algorithm: Decision Tree Classifier
 •	Configuration: max_depth=4, random_state=42
 •	Rationale: Chosen for interpretability and ability to handle non-linear relationships
+
 📈 Key Results
 Model Performance
 •	Test Accuracy: 100% (suggests potential data leakage)
@@ -58,6 +64,7 @@ Key Insights
 1.	Skill Scarcity: Only 6.8% of players classified as high-quality passers
 2.	Feature Importance: Passing ability strongly correlated with overall player quality and dribbling skills
 3.	Interpretable Rules: Decision Tree provides clear, human-readable decision paths
+
 🚀 How to Run the Code
 Prerequisites
 bash
@@ -92,11 +99,13 @@ project/
 ├── pass_prediction_decision_trees.ipynb  # Main analysis notebook
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This file
+
 💡 Model Interpretation
 The Decision Tree provides transparent decision rules such as:
 •	"IF overall rating > X AND passing > Y THEN classify as good passer"
 •	Easy to understand for coaches and scouts
 •	No "black box" predictions
+
 ⚠️ Limitations & Future Work
 1.	Data Leakage Concern: Perfect accuracy suggests the target variable may be derived from input features
 2.	Recommendation: Use actual match statistics (pass completion %) instead of FIFA ratings for real-world validation
@@ -104,6 +113,7 @@ The Decision Tree provides transparent decision rules such as:
 o	Try other models (Random Forest, Gradient Boosting)
 o	Include more sophisticated feature engineering
 o	Use cross-validation for robust evaluation
+
 👥 Applications
 •	Talent Scouting: Identify promising passers
 •	Team Selection: Data-driven player selection

@@ -25,7 +25,9 @@ S/N	NAME	MATRICULATION NUMBER
 18.		Jacob Daniel	VUG/CSC/23/10155
 19.		Benedict Ofodu	VUG/CSC/23/9717
 20.		Labaran Aran-esson	VUG/CSC/23/9907
-21.		Oluwaseyi Ololade Will	VUG CSC 23 10159
+21.		Oluwaseyi Ololade Will	VUG/CSC/23/10159
+22.		Kenneth Ugochukwu VUG/CSC/23/9101
+23.		Folorunsho Boluwatito Bradford VUG/CSC/23/9614
 
 C.	Project Objectives:
  	To train the Decision Tree model to be able to predict if a player’s passing (in soccer) would be successful.
